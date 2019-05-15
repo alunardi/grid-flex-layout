@@ -10,7 +10,8 @@
     <div class="item item-4 background-black"></div>
     <div class="item item-5 background-black"></div>
     <div class="item item-6 background-black">
-      <button @click="menu = !menu" @focusout="closeCollapseMenu">
+      <button @click="menu = !menu"
+              @focusout="closeCollapseMenu">
         <i class="fa fa-align-justify" style="font-size: 2em;"></i>
       </button>
       <transition name="fade">
@@ -24,7 +25,8 @@
       </transition>
     </div>
     <div class="item item-7 background-black">
-      <button @click="search = !search" @focusout="closeCollapseMenu">
+      <button @click="search = !search"
+              @focusout="closeCollapseMenu">
         <i class="fa fa-search" style="font-size: 2em;"></i>
       </button>
       <transition name="fade">
@@ -55,7 +57,9 @@
       </router-link>
     </div>
     <div class="item item-9 background-black">
-      <button @click="login = !login" @focusout="closeCollapseMenu">
+      <button
+        @click="login = !login"
+        @focusout="closeCollapseMenu">
         <i class="fa fa-user" style="font-size: 2em;"></i>
       </button>
       <transition name="fade">
