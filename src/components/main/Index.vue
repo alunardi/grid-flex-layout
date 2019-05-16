@@ -47,14 +47,6 @@
       <router-link to="contact">
         Fale Conosco
       </router-link>
-      &nbsp;|&nbsp;
-      <router-link to="about">
-        Sobre Nós
-      </router-link>
-      &nbsp;|&nbsp;
-      <router-link to="contact">
-        Fale Conosco
-      </router-link>
     </div>
     <div class="item item-9 background-black">
       <button
@@ -141,12 +133,17 @@ export default {
     cursor: pointer;
   }
 
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
   .container {
     display: grid;
     background-color: rgba(0, 0, 0, 0.0);
-    height: auto;
-    grid-template-columns: auto auto 80vw auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto 84% auto auto;
+    grid-template-rows: auto auto minmax(100vh, auto) auto;
   }
 
   .item {

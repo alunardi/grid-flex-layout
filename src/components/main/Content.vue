@@ -61,13 +61,16 @@ export default {
 </script>
 
 <style scoped>
-  .item-flex {
+  img {
+    border-radius: 10px;
+  }  .item-flex {
     margin: 5px;
     padding: 5px;
     height: auto;
     background: lightgray;
     text-align: center;
     font-size: 1em;
+    border-radius: 10px;
   }
 
   .flex {
